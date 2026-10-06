@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ever Recorder</title>
+  <meta name="description" content="Always-on audio recorder with on-device transcription and filler removal.">
+  <style>
+    :root { color-scheme: light dark; }
+    body { font-family: system-ui, -apple-system, sans-serif; margin: 0; line-height: 1.6; }
+    main { max-width: 640px; margin: 0 auto; padding: 48px 20px 64px; }
+    h1 { font-size: 28px; margin: 0 0 8px; }
+    .tag { font-size: 17px; opacity: .8; margin: 0 0 32px; }
+    h2 { font-size: 19px; margin: 32px 0 8px; }
+    ul { padding-left: 22px; margin: 8px 0; }
+    li { margin: 4px 0; }
+    a { color: inherit; }
+    .cta { display: inline-block; margin-top: 16px; padding: 10px 20px; border: 1px solid currentColor; border-radius: 8px; text-decoration: none; }
+    footer { margin-top: 48px; font-size: 14px; opacity: .7; }
+    code { font-size: 14px; }
+  </style>
+</head>
+<body>
+<main>
+  <h1>Ever Recorder</h1>
+  <p class="tag">Always-on audio recorder with on-device transcription and filler removal.</p>
+
+  <h2>What it does</h2>
+  <ul>
+    <li>Records continuously in the background, saved in 5-minute segments</li>
+    <li>Transcribes on-device with a Vosk speech model you import — no account, no network needed</li>
+    <li>Removes filler words (um, uh, erm, hmm) into a separate cleaned copy; originals are preserved</li>
+    <li>Optional scheduled recording windows and cloud transcription (OpenAI, Groq, or your own Whisper-compatible server)</li>
+  </ul>
+
+  <h2>Local-first</h2>
+  <p>Default mode never sends audio anywhere. Recording works immediately;
+  transcription unlocks after you import a small Vosk model ZIP from the
+  official model catalog in Settings. Cloud mode sends audio only to the
+  endpoint you configure.</p>
+
+  <h2>Requirements</h2>
+  <p>Android 10 or later. Microphone permission and notifications for the
+  recording controls. Battery-optimization exemption is recommended for long
+  screen-off sessions.</p>
+
+  <h2>Support</h2>
+  <p><a href="mailto:everrecorder@jojosw.com">everrecorder@jojosw.com</a></p>
+
+  <h2>Privacy</h2>
+  <p><a href="/privacy/">Privacy Policy</a></p>
+
+  <p><span class="cta">Google Play listing — coming soon</span></p>
+
+  <footer>© jojosw · Package <code>com.jojosw.everecorder</code></footer>
+</main>
+</body>
+</html>

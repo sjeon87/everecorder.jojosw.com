@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy Policy — Ever Recorder</title>
+  <meta name="description" content="Privacy policy for Ever Recorder.">
+  <style>
+    :root { color-scheme: light dark; }
+    body { font-family: system-ui, -apple-system, sans-serif; margin: 0; line-height: 1.6; }
+    main { max-width: 640px; margin: 0 auto; padding: 48px 20px 64px; }
+    h1 { font-size: 26px; margin: 0 0 4px; }
+    .date { opacity: .7; font-size: 14px; margin: 0 0 24px; }
+    h2 { font-size: 18px; margin: 28px 0 8px; }
+    ul { padding-left: 22px; margin: 8px 0; }
+    li { margin: 4px 0; }
+    a { color: inherit; }
+    footer { margin-top: 40px; font-size: 14px; opacity: .7; }
+  </style>
+</head>
+<body>
+<main>
+  <h1>Privacy Policy — Ever Recorder</h1>
+  <p class="date">Effective: October 2026</p>
+
+  <h2>Data stored on your device only</h2>
+  <ul>
+    <li><strong>Audio recordings and transcripts:</strong> saved in app-private
+      internal storage with a default 7-day retention and 512&nbsp;MB budget.
+      They are never transmitted anywhere by the app itself.</li>
+    <li><strong>Speech models:</strong> Vosk model files you import from a ZIP.
+      Imported and run fully on-device.</li>
+    <li><strong>Cloud API keys:</strong> encrypted with Android Keystore and
+      used only to call the transcription endpoint you configure. App backup
+      is disabled.</li>
+    <li><strong>Settings and schedules:</strong> recording preferences,
+      schedule windows, and cloud endpoint configuration. Local only.</li>
+  </ul>
+
+  <h2>Data shared with third parties</h2>
+  <ul>
+    <li><strong>Cloud transcription (only if you enable it):</strong> audio is
+      sent to the transcription endpoint you configure — OpenAI
+      (<code>api.openai.com</code>), Groq (<code>api.groq.com</code>), or your
+      own server. Governed by that provider's privacy policy. Default local
+      mode sends nothing.</li>
+    <li><strong>Vosk model catalog:</strong> opening the catalog or
+      downloading a model in your browser is your own network action, governed
+      by that site's policy.</li>
+  </ul>
+  <p>The app contains no ads, no analytics, and no crash reporting. We hold no
+  user data at all — there are no accounts on our side.</p>
+
+  <h2>Permissions used</h2>
+  <ul>
+    <li>Microphone — audio recording</li>
+    <li>Foreground service (microphone type) — background recording</li>
+    <li>Notifications (optional) — recording controls and reboot reminders</li>
+    <li>Wake lock — screen-off capture</li>
+    <li>Battery-optimization exemption request — long recording sessions</li>
+    <li>Internet and network state — cloud transcription only, when enabled</li>
+    <li>Run at startup — resume reminder after reboot</li>
+  </ul>
+
+  <h2>Deletion</h2>
+  <p>Delete clips in the app's Library, or change retention limits to prune
+  automatically. Uninstalling the app wipes all local data. There is nothing
+  to delete server-side — we hold no user data at all.</p>
+
+  <h2>Children</h2>
+  <p>The app records audio on the user's own device and is not directed at
+  children under 13.</p>
+
+  <h2>Contact</h2>
+  <p><a href="mailto:everrecorder@jojosw.com">everrecorder@jojosw.com</a></p>
+
+  <footer><a href="/">← Ever Recorder</a></footer>
+</main>
+</body>
+</html>
